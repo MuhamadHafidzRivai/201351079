@@ -5,10 +5,10 @@ model = pickle .load(open('estimasi_mobil.sav','rb'))
 
 st.title('Estimasi Jarak Tempuh Mobil')
 
-Selling_price = st.number_imput('Input Harga Mobil')
+Selling_price = st.number_input('Input Harga Mobil')
 Owner = st.number_input('Input Owner Mobil')
-Present_Price = st.number('Input Harga Sekarang')
-Year = st.number('Input Tahun Mobil')
+Present_Price = st.number_input('Input Harga Sekarang')
+Year = st.number_input('Input Tahun Mobil')
 
 predict = ''
 
